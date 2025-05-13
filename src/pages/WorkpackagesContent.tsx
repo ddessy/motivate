@@ -514,18 +514,18 @@ const PartnersContent: React.FC = () => {
                      :
                      (
                          <>
-                            <li>проф. д-р Боян Паскалев Бончев (ръководител)</li>
-						                <li>доц. д-р Николина Илиева Николова</li>
-						                <li>доц. д-р Александър Димов Димов</li>
-						                <li>доц. д-р Елена Николаева Паунова-Хубенова</li>
-						                <li>гл. ас. д-р Явор Иванов Данков</li>
-						                <li>гл. ас. д-р Албена Емилова Антонова</li>
-						                <li>гл. ас. д-р Валентина Тодорова Терзиева–Богойчева</li>
-						                <li>д-р Десислава Дакова Василева</li>
-						                <li>ас. Станислав Господинов Иванов</li>
-						                <li>докт. Иван Илков Найденов</li>
-						                <li>докт. Илко Захариев Адамов</li>
-						                <li>Борислав Недков Йорданов</li>
+                             <li>Prof. Dr. Boyan Paskalev Bontchev (project manager)</li>
+                             <li>Assoc. Prof. Dr. Nikolina Ilieva Nikolova</li>
+                             <li>Assoc. Prof. Dr. Alexander Dimov Dimov</li>
+                             <li>Assoc. Prof. Dr. Elena Nikolaeva Paunova-Hubenova</li>
+                             <li>Ch. Assistant Prof. Dr. Yavor Ivanov Dankov</li>
+                             <li>Ch. Assistant Prof. Dr. Albena Emilova Antonova</li>
+                             <li>Ch. Assistant Prof. Dr. Valentina Todorova Terzieva-Bogoycheva</li>
+                             <li>Dr. Dessislava Dakova Vassileva</li>
+                             <li>Assistant Stanislav Gospodinov Ivanov</li>
+                             <li>Doctoral student Ivan Ilkov Naydenov</li>
+                             <li>Doctoral student Ilko Zahariev Adamov</li>
+                             <li>Borislav Nedkov Yordanov</li>
                          </>
                      )
                     }
