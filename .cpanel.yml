@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/apogeeon/motivate_git
-    - rsync -a --delete dist/ $DEPLOYPATH
+    - cp -r /home/apogeeon/repositories/motivate/dist/. /home/apogeeon/motivate_git/
