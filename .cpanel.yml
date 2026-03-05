@@ -1,4 +1,6 @@
 ---
 deployment:
   tasks:
-    - cp -r /home/apogeeon/repositories/motivate/dist/. /home/apogeeon/motivate_git/
+    - cp /home/apogeeon/public_html/index.html /home/apogeeon/public_html_backup/index.html
+    - cp -r /home/apogeeon/public_html/assets/. /home/apogeeon/public_html_backup/assets/
+    - cp -r /home/apogeeon/repositories/motivate/dist/. /home/apogeeon/public_html/
