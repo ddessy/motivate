@@ -114,6 +114,28 @@ const StudentGamesContent: React.FC = () => {
             </h2>
             <p>{t('studentGamesContent.intro')}</p>
 
+            {/* ── Quick navigation ── */}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, margin: '16px 0 24px' }}>
+              {gameDefs.map((game) => (
+                <a
+                  key={game.id}
+                  href={`#game-${game.id}`}
+                  style={{
+                    padding: '6px 16px',
+                    borderRadius: 3,
+                    fontSize: 13,
+                    fontWeight: 600,
+                    textDecoration: 'none',
+                    background: '#1F5794',
+                    color: '#fff',
+                    border: '1px solid #1F5794',
+                  }}
+                >
+                  {t(game.titleKey)}
+                </a>
+              ))}
+            </div>
+
             <hr />
 
             {gameDefs.map((game, idx) => {
@@ -122,7 +144,7 @@ const StudentGamesContent: React.FC = () => {
               const controls = t(game.controlsKey, { returnObjects: true }) as Control[];
 
               return (
-                <div key={game.id}>
+                <div key={game.id} id={`game-${game.id}`}>
 
                   {/* ── Header ── */}
                   <div>
