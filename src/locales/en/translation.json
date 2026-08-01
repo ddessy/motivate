@@ -17,6 +17,11 @@
   "events": "Other Events",
   "games": "GAMES",
   "contact": "CONTACT",
+  "here": "HERE",
+  "gamesMenu": {
+    "apogee": "APOGEE Games",
+    "student": "Student Games"
+  },
   "footerContent": {
     "system": "Project management system.",
     "blog": "Blog",
@@ -26,8 +31,8 @@
     "phone": "Phone:",
     "email": "Email:",
     "rights_reserved": "All Rights Reserved"
- },
- "homeContent": {
+  },
+  "homeContent": {
     "title": "Modeling intelligent tools for adaptive and personalized educational STEM video games (MOTIVATE)",
     "personalization": "Personalization",
     "personalization_desc": "Construction, generation and customization of educational video games.",
@@ -59,20 +64,20 @@
     "description5": "To validate both non-adaptive and adaptive versions of video games through practical online experiments with teachers and students. Experimental studies will use our experience in cultural heritage digitalisation and e-learning projects;",
     "title6": "Objective 6",
     "description6": "To validate both the non-adaptive and adaptive versions of the video games by means of practical online experiments with teachers and school students; the experimental studies will benefit from the proven great experience in project about preservation of cultural heritage and e-learning."
- },
- "methodologyContent": {
+  },
+  "methodologyContent": {
     "title": "METHODOLOGY",
     "intro": "The research methodology of MOTIVATE will follow an iterative and incremental approach extending with learning by doing the methodology defined by Kirjavainen especially for generation of game concept and game design and development folliwing a multi-disciplinary prescriptive development model, using an iterative and incremental approach and agile techniques such as the SCRUM process control methodology. As most appropriate for the project as far as it covers all stages of the project research and development process and is combined with learning by doing; with phases as follows:",
     "phase1": "Identification of research problems and formulation of research questions and tasks. Here, learning by doing addresses an increased exchange of scientific and technology solutions ideas between different domain specialists such as cultural heritage specialists, game designers, platform and game developers, and GBL practitioners and pedagogues. Phase objectives: adequate and precise description of the research context (problems in formal game description and semantic content organization, generation of video games, game scenarios/didactic methods/tasks for adaptive games) and detailed research formulation - research questions and tasks, identification of needs of target users of the platform (educationalists and teachers) and of the educational video games constructed by the platform (5-8 class school students).",
     "phase2": "Answering the research questions - by theoretical and practical work with learning by doing.",
     "phase2_goals": "Phase objectives:",
     "phase2.1": "Definition of formal language for description of hierarchical mazes, incl. semantically structured learning content",
-    "phase2.2": "Design and development of an innovative open software platform based on an existing game engine (such as Unity 3D ) and used for generation of customized hierarchical 3D video maze games with simple and intelligent virtual players, whereupon the construction is based on declarative game description and semantically structured cultural artifacts, constructed by means of a metadata-driven visual maze editor.",
+    "phase2.2": "Design and development of an innovative open software platform based on an existing game engine (such as Unity 3D) and used for generation of customized hierarchical 3D video maze games with simple and intelligent virtual players, whereupon the construction is based on declarative game description and semantically structured cultural artifacts, constructed by means of a metadata-driven visual maze editor.",
     "phase3": "Practical proving the answers to the research questions. Phase objectives: implementation of software prototypes of player-centric video games using the generation platform from the previous stage. The iterative and agile (SCRUM-based) risk-driven process will consist of two proof-of-concept iterations, namely:",
     "phase3.1": "Development of non-adaptive prototypes of desktop and online video games for Bulgarian medieval history, with simple virtual players – including proactive game scenarios, tasks and 3D model content authoring. The game-based approach uses modern learning paradigms by developing a series of interconnected activities in which learners are not only active participants but also have the freedom to choose their own learning pathway in the game.",
-    "phase3.2": "Development of adaptive prototypes of smart adaptive video games for history education, and questionnaires for online surveys. All the experiments will be conducted online in order to include recognition of player affect inferred EDA and BVP dynamically measured by custom measuring device and the RAGE game asset form measuring the player affect , and recognition of emotions based at least on facial expressions by means of software libraries like Affdex SDK.",
-    "phase4": "Practical experiments with the target groups – includes testing of the game prototypes of the chosen domain in real conditions, with online experimental setup including consent form and information sheets, smart adaptive video games for history education with simple and intelligent virtual players, and questionnaires for online surveys. All the experiments will be conducted online in order to include more participants for obtaining statistically significant results. Phase objectives: definition and execution of online experimental studies, including game sessions with non-adaptive and adaptive versions of the games and pre- and post-game questionnaires, addressing previous gaming experience, game engagement and experience , and generation platform usability.",
-    "phase5": "Analyses and validation of the results of the study. Phase objectives: analysis and validation of experimental results and their reflection on final games’ prototypes, by means of analysis of variance (ANOVA), correlation analyses, and principal components analysis and/or factor analysis – all applied for validating (1) platform usability for the target user group (teachers and educationalists), (2) learning analytics of adaptive and agent-faciletated GBL for school students, together with (3) expected innovative enhancements of game playability, resulting in guidelines for further research."
+    "phase3.2": "Development of adaptive prototypes of smart adaptive video games for history education, and questionnaires for online surveys. All the experiments will be conducted online in order to include recognition of player affect inferred EDA and BVP dynamically measured by custom measuring device and the RAGE game asset form measuring the player affect, and recognition of emotions based at least on facial expressions by means of software libraries like Affdex SDK.",
+    "phase4": "Practical experiments with the target groups – includes testing of the game prototypes of the chosen domain in real conditions, with online experimental setup including consent form and information sheets, smart adaptive video games for history education with simple and intelligent virtual players, and questionnaires for online surveys. All the experiments will be conducted online in order to include more participants for obtaining statistically significant results. Phase objectives: definition and execution of online experimental studies, including game sessions with non-adaptive and adaptive versions of the games and pre- and post-game questionnaires, addressing previous gaming experience, game engagement and experience, and generation platform usability.",
+    "phase5": "Analyses and validation of the results of the study. Phase objectives: analysis and validation of experimental results and their reflection on final games' prototypes, by means of analysis of variance (ANOVA), correlation analyses, and principal components analysis and/or factor analysis – all applied for validating (1) platform usability for the target user group (teachers and educationalists), (2) learning analytics of adaptive and agent-faciletated GBL for school students, together with (3) expected innovative enhancements of game playability, resulting in guidelines for further research."
   },
   "workpackagesContent": {
     "title": "WORK PACKAGES",
@@ -80,7 +85,7 @@
     "action": "Activity",
     "expected_result": "Expected results",
     "wp1.1.action": "Comparative analyses in the areas of adaptive, player-centered video games, contemporary use of intelligent agents, platforms for creating video games, and methods and techniques in game-based learning.",
-    "wp1.1.result": "Analysis in the areas of adaptive, player-centered video games with intelligent agents for educational purposes and platforms for constructing games and applications for game-based learnin",
+    "wp1.1.result": "Analysis in the areas of adaptive, player-centered video games with intelligent agents for educational purposes and platforms for constructing games and applications for game-based learning",
     "wp1.2.action": "Identifying the needs of target users of educational video games (teachers and students)",
     "wp1.2.result": "Analysis of needs of target users of educational video games",
     "wp1.3.action": "Identifying the needs of target users of educational video game development platforms (teachers and educators)",
@@ -119,7 +124,7 @@
     "wp6.3.result": "Results of factor analysis",
     "wp6.4.action": "Evaluation of the usability of the game platform",
     "wp6.4.result": "Results of the usability assessment of the game platform",
-    "wp7.1.action": "Create and maintain a project website and leaflet ",
+    "wp7.1.action": "Create and maintain a project website and leaflet",
     "wp7.1.result": "Project website (with links to all other electronic resources) and leaflet",
     "wp7.2.action": "Create a detailed dissemination plan",
     "wp7.2.result": "Detailed dissemination plan",
@@ -175,62 +180,408 @@
   "gamesContent": {
     "title": "GAMES",
     "howToPlay": {
-        "label": "How to play (short guide)",
-        "video": "video",
-        "webpage": "Web page"
+      "label": "How to play (short guide)",
+      "video": "video",
+      "webpage": "Web page"
     },
     "asenevtsi": {
-        "title": "Asenevtsi (version 0.8 - universal, and 0.86 - personalized)",
-        "description1": "Asenevtsi is a demonstration educational game-maze on the medieval history of Bulgaria, generated with the platform for generating serious educational games APOGEE.",
-        "description2": "The maze has six halls: 1. Introductory; 2. Uprising of Peter and Asen; 3. Tsar Kaloyan; 4. Tsar Ivan Asen II; 5. Bulgaria after Tsar Ivan Asen II; 6. Last hall. To reach the last hall, you must go through the other three, solving the mandatory game-tasks in the halls and then Answer the questions to unlock the doors. Solving the optional games brings additional points. The game ends after all the objects hidden in the halls are found. Explanations HOW TO PLAY you can see ",
-        "controls1": "With the keys a, d, w and s you move left, right, forward and backward, and ",
-        "controls2": "with Shift and these keys you move twice as fast.",
-        "universalVersion": "To play the universal (shorter) version of the game, oriented to basic knowledge of the affairs of the Asenevtsi, click ",
-        "personalizedVersion": "and to play the personalized (longer) version of the game, oriented to more in-depth knowledge of the Asenevtsi dynasty and the medieval history of Bulgaria, press ",
-        "personalizationVersionExpl": " (you need to wait for the game to load in the browser, then click the button at the bottom right to play in full screen).",
-        "tracking": "While playing, note (write down) how many minutes you played the game approximately, how many points you collected in total, how many points you earned in the QUIZ game in the last room, and how many hidden objects you found.",
-        "evaluationSurvey": "When you finish the game, please fill out ",
-        "survey1": "The game evaluation survey.",
-        "evaluationSurvey2": ", in which you will also record the achieved results.",
-        "comparisonSurvey": "If you have played both games, please fill out ",
-        "survey2": "The comparison survey of the two games",
-        "comparisonSurvey2": ", in which you will also record the achieved results in the games.",
-        "thanks": "Thank you in advance for your time!"
+      "title": "Asenevtsi (version 0.8 - universal, and 0.86 - personalized)",
+      "description1": "Asenevtsi is a demonstration educational game-maze on the medieval history of Bulgaria, generated with the platform for generating serious educational games APOGEE.",
+      "description2": "The maze has six halls: 1. Introductory; 2. Uprising of Peter and Asen; 3. Tsar Kaloyan; 4. Tsar Ivan Asen II; 5. Bulgaria after Tsar Ivan Asen II; 6. Last hall. To reach the last hall, you must go through the other three, solving the mandatory game-tasks in the halls and then answer the questions to unlock the doors. Solving the optional games brings additional points. The game ends after all the objects hidden in the halls are found. Explanations HOW TO PLAY you can see ",
+      "controls1": "With the keys a, d, w and s you move left, right, forward and backward, and ",
+      "controls2": "with Shift and these keys you move twice as fast.",
+      "universalVersion": "To play the universal (shorter) version of the game, oriented to basic knowledge of the affairs of the Asenevtsi, click ",
+      "personalizedVersion": "and to play the personalized (longer) version of the game, oriented to more in-depth knowledge of the Asenevtsi dynasty and the medieval history of Bulgaria, press ",
+      "personalizationVersionExpl": " (you need to wait for the game to load in the browser, then click the button at the bottom right to play in full screen).",
+      "tracking": "While playing, note (write down) how many minutes you played the game approximately, how many points you collected in total, how many points you earned in the QUIZ game in the last room, and how many hidden objects you found.",
+      "evaluationSurvey": "When you finish the game, please fill out ",
+      "survey1": "The game evaluation survey.",
+      "evaluationSurvey2": ", in which you will also record the achieved results.",
+      "comparisonSurvey": "If you have played both games, please fill out ",
+      "survey2": "The comparison survey of the two games",
+      "comparisonSurvey2": ", in which you will also record the achieved results in the games.",
+      "thanks": "Thank you in advance for your time!"
     },
     "valchanVoyvoda": {
-        "title": "The Legacy of Valchan Voyvoda (version 1.0)",
-        "description1": "\"The Legacy of Valchan Voyvoda\" is a demonstration educational game-maze dedicated to the life and work of the legendary Valchan Voyvoda. The game was created under the project",
-        "description2": "Heritage BG on the medieval history of Bulgaria",
-        "description3": ", and was generated by the first prototype of the platform for generating serious educational games APOGEE.",
-        "rooms": "The maze has 7 halls: 1. Introductory; 2. Epoch; 3. Who is Valchan Voyvoda; 4. Deeds; 5. Heritage; 6. Valchan Voyvoda today; 7. Treasure. To reach the last hall, you must go through all the others, solving the tasks in the halls and answering the questions to unlock the doors. Finding hidden objects earns points. The game ends when all the objects hidden in the rooms are found.",
-        "playHere1": "Enter the game",
-        "playHere2": " (you need to wait for the game to load from the server) and play one or more games!"
-        },
-        "footer": {
-        "goodLuck": "Have fun and good luck!"
+      "title": "The Legacy of Valchan Voyvoda (version 1.0)",
+      "description1": "\"The Legacy of Valchan Voyvoda\" is a demonstration educational game-maze dedicated to the life and work of the legendary Valchan Voyvoda. The game was created under the project",
+      "description2": "Heritage BG on the medieval history of Bulgaria",
+      "description3": ", and was generated by the first prototype of the platform for generating serious educational games APOGEE.",
+      "rooms": "The maze has 7 halls: 1. Introductory; 2. Epoch; 3. Who is Valchan Voyvoda; 4. Deeds; 5. Heritage; 6. Valchan Voyvoda today; 7. Treasure. To reach the last hall, you must go through all the others, solving the tasks in the halls and answering the questions to unlock the doors. Finding hidden objects earns points. The game ends when all the objects hidden in the rooms are found.",
+      "playHere1": "Enter the game",
+      "playHere2": " (you need to wait for the game to load from the server) and play one or more games!"
+    },
+    "footer": {
+      "goodLuck": "Have fun and good luck!"
     }
- },
-  "contactsContent": {
-      "title": "Contacts",
-      "project": {
-          "label": "MOTIVATE Project",
-          "email": "Email: games.motivate@gmail.com"
+  },
+  "studentGamesContent": {
+    "title": "Student Games — XML Technologies 2025/2026",
+    "intro": "The four games below are course projects by students of the Software Engineering bachelor's programme at the Faculty of Mathematics and Informatics, Sofia University, developed as part of the XML Technologies for the Semantic Web course, winter semester 2025/2026.",
+    "labelGoal": "Goal:",
+    "labelScoring": "Scoring:",
+    "labelSteps": "How to play",
+    "labelControls": "Controls",
+    "title53": "Educational Shooting Video Game",
+    "subtitle53": "First-person shooter with historical artefacts",
+    "desc53": "An educational FPS game in which you play the role of an explorer protecting historical artefacts. Hot air balloons carry crates with valuable items — your task is to shoot down the balloons without damaging the cargo.",
+    "goal53": "Accumulate the maximum number of points by hitting balloons and avoiding the artefact crates. Three levels with different trajectories — linear, curvilinear and expert.",
+    "scoring53": "+1 point for a hit balloon · −1 point for a missed shot · −5 points for hitting an artefact crate.",
+    "tip53": "Hitting an artefact crate costs 5 points — more than five balloons are worth. Aim carefully, especially when the balloon is close to the crate.",
+    "title54": "Sorting Stereometric Bodies",
+    "subtitle54": "3D game for recognising and classifying geometric figures",
+    "desc54": "An educational 3D game for students learning solid geometry. You walk through a three-dimensional room, discover hidden geometric bodies and sort them into categories in a cabinet.",
+    "goal54": "Find all the stereometric bodies and place them in the correct compartment. Four levels with an increasing number and complexity of bodies.",
+    "scoring54": "Points for correct sorting. Incorrect placement reduces the score but does not block progress. Results are saved in a CSV leaderboard.",
+    "tip54": "Examine the body up close before sorting it — incorrect placement reduces your points.",
+    "title55": "Across the Ages: Puzzle Journey",
+    "subtitle55": "2D puzzle with historical images",
+    "desc55": "An educational 2D puzzle game with historical themes — prehistory, Ancient Egypt, the Middle Ages and the future. Arrange the cut-up images to reveal the full picture.",
+    "goal55": "Place all puzzle pieces in the correct positions. Four pictures × four difficulty levels: square and triangular pieces, with or without rotation.",
+    "scoring55": "Points for each correctly placed piece. Using the Help button reduces points. Progress is saved in an XML profile between sessions.",
+    "tip55": "The Help button reduces your points — try on your own first before using it.",
+    "title56": "Annotating Stereometric Objects",
+    "subtitle56": "3D educational game on spatial geometry",
+    "desc56": "An educational 3D game on spatial geometry. You walk through a room with geometric bodies and must match each body with the correct label from the wall — a name or a formula.",
+    "goal56": "Pick up the annotation labels and place them on the correct bodies. Three levels — from names to volume and surface area formulas.",
+    "scoring56": "Effectiveness — always 100% upon completion. Efficiency — depends on the number of attempts. Mistakes do not block progress.",
+    "tip56": "Read the formulas carefully before attaching the label — examine the body up close if needed.",
+    "steps53": [
+      {
+        "title": "Start the game",
+        "text": "The main menu loads. Select a level and begin."
       },
-      "leader": {
-          "title": "MOTIVATE Project Manager",
-          "name": "prof. Boyan Bontchev",
-          "department": "Department of Software Technologies",
-          "faculty": "Faculty of Mathematics and Informatics",
-          "university": "Sofia University \"St. Cl. Ohridski\"",
-          "address": {
-              "street": "125 Tsarigradsko Shose Blvd",
-              "block": "block 2, fl. 2, cab. 214A",
-              "city": "Sofia 1113, Bulgaria"
-          },
-          "phone": "Phone: (+359) 2 971 04 00",
-          "email": "Email: bbontchev@fmi.uni-sofia.bg",
-          "skype": "Skype: bbontchev",
-          "linkedin": "Linkedin: https://www.linkedin.com/in/bbontchev/"
+      {
+        "title": "Take on the role of explorer",
+        "text": "You are on a location where hot air balloons carrying artefacts fly by."
+      },
+      {
+        "title": "Choose a weapon",
+        "text": "Three weapons with different accuracy: pistol, rifle and sniper."
+      },
+      {
+        "title": "Shoot the balloons",
+        "text": "Left click = shoot. Hit balloon → +1 pt. Hit crate → −5 pts."
+      },
+      {
+        "title": "Check your inventory",
+        "text": "Collected artefacts appear in the inventory with historical information."
+      },
+      {
+        "title": "Complete the level",
+        "text": "The result is automatically saved to GameResults.txt."
       }
+    ],
+    "controls53": [
+      {
+        "keys": [
+          "Mouse"
+        ],
+        "action": "Aim / rotate view"
+      },
+      {
+        "keys": [
+          "Left click"
+        ],
+        "action": "Shoot"
+      },
+      {
+        "keys": [
+          "1",
+          "2",
+          "3"
+        ],
+        "action": "Switch weapon"
+      },
+      {
+        "keys": [
+          "Tab"
+        ],
+        "action": "Open / close inventory"
+      },
+      {
+        "keys": [
+          "Esc"
+        ],
+        "action": "Pause / menu"
+      }
+    ],
+    "steps54": [
+      {
+        "title": "Explore the room",
+        "text": "Walk through a 3D room — geometric bodies are hidden behind objects."
+      },
+      {
+        "title": "Pick up a body",
+        "text": "Point the cursor and left-click to add the body to your inventory."
+      },
+      {
+        "title": "Find the cabinet",
+        "text": "There is a cabinet with categories — rotational, platonic and prismatic bodies."
+      },
+      {
+        "title": "Place in the correct category",
+        "text": "Select a body from inventory and drop it into the correct compartment."
+      },
+      {
+        "title": "Complete the level",
+        "text": "All bodies correctly sorted → level complete."
+      },
+      {
+        "title": "Check your result",
+        "text": "Points and efficiency are saved to the CSV leaderboard."
+      }
+    ],
+    "controls54": [
+      {
+        "keys": [
+          "W",
+          "A",
+          "S",
+          "D"
+        ],
+        "action": "Move around the room"
+      },
+      {
+        "keys": [
+          "Mouse"
+        ],
+        "action": "Control the camera"
+      },
+      {
+        "keys": [
+          "Left click"
+        ],
+        "action": "Pick up body / confirm choice"
+      },
+      {
+        "keys": [
+          "Tab"
+        ],
+        "action": "Open / close inventory"
+      },
+      {
+        "keys": [
+          "Esc"
+        ],
+        "action": "Pause / menu"
+      }
+    ],
+    "steps55": [
+      {
+        "title": "Log in",
+        "text": "Enter username and password. Click Sign up if needed."
+      },
+      {
+        "title": "Choose image and level",
+        "text": "Four historical pictures. Levels 2–4 unlock after completing the previous one."
+      },
+      {
+        "title": "Assemble the puzzle",
+        "text": "Drag pieces with the mouse to the frame. They snap into place when correct."
+      },
+      {
+        "title": "Rotate pieces (levels 2 and 4)",
+        "text": "Hold a piece and press R to rotate it 90°."
+      },
+      {
+        "title": "Use Help if needed",
+        "text": "Automatically joins two adjacent pieces, but reduces your points."
+      },
+      {
+        "title": "Complete the level",
+        "text": "Puzzle complete → final screen with points and confetti effect."
+      }
+    ],
+    "controls55": [
+      {
+        "keys": [
+          "Left click hold"
+        ],
+        "action": "Drag piece"
+      },
+      {
+        "keys": [
+          "Left click release"
+        ],
+        "action": "Snaps if placed correctly"
+      },
+      {
+        "keys": [
+          "R"
+        ],
+        "action": "Rotate piece 90° (levels 2 and 4)"
+      },
+      {
+        "keys": [
+          "Help button"
+        ],
+        "action": "Join two adjacent pieces"
+      },
+      {
+        "keys": [
+          "Settings button"
+        ],
+        "action": "Audio settings"
+      }
+    ],
+    "steps56": [
+      {
+        "title": "Explore the room",
+        "text": "Enter a 3D room with geometric bodies. WASD to move, mouse to look."
+      },
+      {
+        "title": "Find the annotations",
+        "text": "Labels with names and formulas are attached to the wall."
+      },
+      {
+        "title": "Pick up a label",
+        "text": "Left-click a label to pick it up."
+      },
+      {
+        "title": "Place on the body",
+        "text": "Go to the correct body and left-click. Correct answer → sound and points."
+      },
+      {
+        "title": "Wrong answer",
+        "text": "Audio signal, no point loss — only efficiency decreases. Try again."
+      },
+      {
+        "title": "Next level",
+        "text": "Level 1: names. Level 2: formulas. Level 3: complex bodies + double formulas."
+      }
+    ],
+    "controls56": [
+      {
+        "keys": [
+          "W",
+          "A",
+          "S",
+          "D"
+        ],
+        "action": "Move around the room"
+      },
+      {
+        "keys": [
+          "Mouse"
+        ],
+        "action": "Control the camera"
+      },
+      {
+        "keys": [
+          "Left click"
+        ],
+        "action": "Pick up label / place on body"
+      },
+      {
+        "keys": [
+          "Esc"
+        ],
+        "action": "Pause / menu"
+      }
+    ],
+    "meta53": [
+      {
+        "label": "Genre",
+        "value": "First-person shooter"
+      },
+      {
+        "label": "Levels",
+        "value": "3"
+      },
+      {
+        "label": "Weapons",
+        "value": "Pistol · Rifle · Sniper"
+      },
+      {
+        "label": "Authors",
+        "value": "Vladimir Kotsev · Radin Tikholov"
+      }
+    ],
+    "meta54": [
+      {
+        "label": "Genre",
+        "value": "3D educational"
+      },
+      {
+        "label": "Levels",
+        "value": "4"
+      },
+      {
+        "label": "Bodies",
+        "value": "40+ figures"
+      },
+      {
+        "label": "Authors",
+        "value": "Viktor Kartalov · Boril Vasilev"
+      }
+    ],
+    "meta55": [
+      {
+        "label": "Genre",
+        "value": "2D puzzle"
+      },
+      {
+        "label": "Levels",
+        "value": "4 levels × 4 images"
+      },
+      {
+        "label": "Profile",
+        "value": "Login / register"
+      },
+      {
+        "label": "Authors",
+        "value": "Aylin Mollaahmed · Savina Kusheva"
+      }
+    ],
+    "meta56": [
+      {
+        "label": "Genre",
+        "value": "3D educational"
+      },
+      {
+        "label": "Levels",
+        "value": "3"
+      },
+      {
+        "label": "Subject",
+        "value": "Solid geometry"
+      },
+      {
+        "label": "Authors",
+        "value": "Nadya Yotova · Atanas Hristov"
+      }
+    ],
+    "url53": "/studentgames/shootergame/",
+    "url54": "/studentgames/solidsort/",
+    "url55": "/studentgames/puzzle/",
+    "url56": "/studentgames/annotationgame/",
+    "playGame": "Play the game",
+    "screenshots": "Screenshots",
+    "playButton": "Play now",
+    "integratedBy": "Integrated by Dessislava Vassileva and Boyan Bontchev"
+  },
+  "contactsContent": {
+    "title": "Contacts",
+    "project": {
+      "label": "MOTIVATE Project",
+      "email": "Email: games.motivate@gmail.com"
+    },
+    "leader": {
+      "title": "MOTIVATE Project Manager",
+      "name": "prof. Boyan Bontchev",
+      "department": "Department of Software Technologies",
+      "faculty": "Faculty of Mathematics and Informatics",
+      "university": "Sofia University \"St. Cl. Ohridski\"",
+      "address": {
+        "street": "125 Tsarigradsko Shose Blvd",
+        "block": "block 2, fl. 2, cab. 214A",
+        "city": "Sofia 1113, Bulgaria"
+      },
+      "phone": "Phone: (+359) 2 971 04 00",
+      "email": "Email: bbontchev@fmi.uni-sofia.bg",
+      "skype": "Skype: bbontchev",
+      "linkedin": "Linkedin: https://www.linkedin.com/in/bbontchev/"
+    }
   }
 }

@@ -22,6 +22,7 @@ const Header: React.FC = () => {
           </div>
           <div className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-right">
+
               <li className="dropdown">
                 <Link to="/">{t('home')} <i className="fa fa-bars"></i></Link>
               </li>
@@ -56,8 +57,23 @@ const Header: React.FC = () => {
                 </ul>
               </li>
 
+              {/* ── GAMES dropdown с две подменюта ── */}
               <li className="dropdown">
-                <Link to="/games">{t('games')} <i className="fa fa-bars"></i></Link>
+                <Link to="#" className="dropdown-toggle" role="button">
+                  {t('games')} <i className="fa fa-folder-open-o"></i>
+                </Link>
+                <ul className="dropdown-menu dropdown-menu-left">
+                  <li>
+                    <Link to="/games">
+                      <i className="fa fa-gamepad"></i>{t('gamesMenu.apogee')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/studentgames">
+                      <i className="fa fa-graduation-cap"></i>{t('gamesMenu.student')}
+                    </Link>
+                  </li>
+                </ul>
               </li>
 
               <li className="dropdown">
@@ -69,6 +85,7 @@ const Header: React.FC = () => {
                   <img src={i18n.language === 'bg' ? "/assets/img/flagEN.gif" : "/assets/img/flagBG.gif"} alt="Lang" />
                 </a>
               </li>
+
             </ul>
           </div>
         </div>
