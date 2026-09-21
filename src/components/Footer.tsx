@@ -12,7 +12,6 @@ const Footer: React.FC = () => {
 					<div className="col-lg-4 col-md-4" id="about-ftr">
 						<i className="fa fa-building fa-2x"></i>
 						<span>MOTIVATE</span>
-						<p><a href="http://motivate-bg.online/qdPM/">{t('footerContent.system')}</a></p>
 					</div>
 					<div className="col-lg-4 col-md-4">
 						<i className="fa fa-paper-plane-o fa-2x"></i>
