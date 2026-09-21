@@ -34,7 +34,7 @@ const gameDefs: GameDef[] = [
     stepsKey: 'internGamesContent.steps57',
     controlsKey: 'internGamesContent.controls57',
     tipKey: 'internGamesContent.tip57',
-    gameUrl: '/studentgames/doktorznanie/',
+    gameUrl: '/interngames/doktorznanie/',
     screenshots: [
       './assets/img/interngames/game57_1.jpg',
       './assets/img/interngames/game57_2.jpg',
@@ -53,7 +53,7 @@ const gameDefs: GameDef[] = [
     stepsKey: 'internGamesContent.steps58',
     controlsKey: 'internGamesContent.controls58',
     tipKey: 'internGamesContent.tip58',
-    gameUrl: '/studentgames/imunenzashtitnik/',
+    gameUrl: '/interngames/imunenzashtitnik/',
     screenshots: [
       './assets/img/interngames/game58_1.jpg',
       './assets/img/interngames/game58_2.jpg',
