@@ -23,84 +23,46 @@ interface GameDef {
 
 const gameDefs: GameDef[] = [
   {
-    id: 53,
-    iconClass: 'fa fa-crosshairs',
-    titleKey: 'studentGamesContent.title53',
-    subtitleKey: 'studentGamesContent.subtitle53',
-    descriptionKey: 'studentGamesContent.desc53',
-    goalKey: 'studentGamesContent.goal53',
-    scoringKey: 'studentGamesContent.scoring53',
-    metaKey: 'studentGamesContent.meta53',
-    stepsKey: 'studentGamesContent.steps53',
-    controlsKey: 'studentGamesContent.controls53',
-    tipKey: 'studentGamesContent.tip53',
-    gameUrl: '/studentgames/shootergame/',
+    id: 57,
+    iconClass: 'fa fa-user-md',
+    titleKey: 'internGamesContent.title57',
+    subtitleKey: 'internGamesContent.subtitle57',
+    descriptionKey: 'internGamesContent.desc57',
+    goalKey: 'internGamesContent.goal57',
+    scoringKey: 'internGamesContent.scoring57',
+    metaKey: 'internGamesContent.meta57',
+    stepsKey: 'internGamesContent.steps57',
+    controlsKey: 'internGamesContent.controls57',
+    tipKey: 'internGamesContent.tip57',
+    gameUrl: '/studentgames/doktorznanie/',
     screenshots: [
-      './assets/img/studentgames/game53_1.jpg',
-      './assets/img/studentgames/game53_2.jpg',
-      './assets/img/studentgames/game53_3.jpg',
+      './assets/img/interngames/game57_1.jpg',
+      './assets/img/interngames/game57_2.jpg',
+      './assets/img/interngames/game57_3.jpg',
     ],
   },
   {
-    id: 54,
-    iconClass: 'fa fa-cubes',
-    titleKey: 'studentGamesContent.title54',
-    subtitleKey: 'studentGamesContent.subtitle54',
-    descriptionKey: 'studentGamesContent.desc54',
-    goalKey: 'studentGamesContent.goal54',
-    scoringKey: 'studentGamesContent.scoring54',
-    metaKey: 'studentGamesContent.meta54',
-    stepsKey: 'studentGamesContent.steps54',
-    controlsKey: 'studentGamesContent.controls54',
-    tipKey: 'studentGamesContent.tip54',
-    gameUrl: '/studentgames/solidsort/',
+    id: 58,
+    iconClass: 'fa fa-shield',
+    titleKey: 'internGamesContent.title58',
+    subtitleKey: 'internGamesContent.subtitle58',
+    descriptionKey: 'internGamesContent.desc58',
+    goalKey: 'internGamesContent.goal58',
+    scoringKey: 'internGamesContent.scoring58',
+    metaKey: 'internGamesContent.meta58',
+    stepsKey: 'internGamesContent.steps58',
+    controlsKey: 'internGamesContent.controls58',
+    tipKey: 'internGamesContent.tip58',
+    gameUrl: '/studentgames/imunenzashtitnik/',
     screenshots: [
-      './assets/img/studentgames/game54_1.jpg',
-      './assets/img/studentgames/game54_2.jpg',
-      './assets/img/studentgames/game54_3.jpg',
-    ],
-  },
-  {
-    id: 55,
-    iconClass: 'fa fa-th',
-    titleKey: 'studentGamesContent.title55',
-    subtitleKey: 'studentGamesContent.subtitle55',
-    descriptionKey: 'studentGamesContent.desc55',
-    goalKey: 'studentGamesContent.goal55',
-    scoringKey: 'studentGamesContent.scoring55',
-    metaKey: 'studentGamesContent.meta55',
-    stepsKey: 'studentGamesContent.steps55',
-    controlsKey: 'studentGamesContent.controls55',
-    tipKey: 'studentGamesContent.tip55',
-    gameUrl: '/studentgames/puzzle/',
-    screenshots: [
-      './assets/img/studentgames/game55_1.jpg',
-      './assets/img/studentgames/game55_2.jpg',
-      './assets/img/studentgames/game55_3.jpg',
-    ],
-  },
-  {
-    id: 56,
-    iconClass: 'fa fa-tag',
-    titleKey: 'studentGamesContent.title56',
-    subtitleKey: 'studentGamesContent.subtitle56',
-    descriptionKey: 'studentGamesContent.desc56',
-    goalKey: 'studentGamesContent.goal56',
-    scoringKey: 'studentGamesContent.scoring56',
-    metaKey: 'studentGamesContent.meta56',
-    stepsKey: 'studentGamesContent.steps56',
-    controlsKey: 'studentGamesContent.controls56',
-    tipKey: 'studentGamesContent.tip56',
-    gameUrl: '/studentgames/annotationgame/',
-    screenshots: [
-      './assets/img/studentgames/game56_1.jpg',
-      './assets/img/studentgames/game56_2.jpg',
-      './assets/img/studentgames/game56_3.jpg',
+      './assets/img/interngames/game58_1.jpg',
+      './assets/img/interngames/game58_2.jpg',
+      './assets/img/interngames/game58_3.jpg',
     ],
   },
 ];
 
-const StudentGamesContent: React.FC = () => {
+const InternGamesContent: React.FC = () => {
   const { t } = useTranslation();
 
   return (
@@ -110,9 +72,9 @@ const StudentGamesContent: React.FC = () => {
           <div className="col-lg-12 col-md-12">
 
             <h2 id="student-games">
-              <strong>{t('studentGamesContent.title')}</strong>
+              <strong>{t('internGamesContent.title')}</strong>
             </h2>
-            <p>{t('studentGamesContent.intro')}</p>
+            <p>{t('internGamesContent.intro')}</p>
 
             {/* ── Quick navigation ── */}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, margin: '16px 0 24px' }}>
@@ -148,9 +110,6 @@ const StudentGamesContent: React.FC = () => {
 
                   {/* ── Header ── */}
                   <div>
-                    <p style={{ color: '#FB9351', fontWeight: 700, marginBottom: 2, fontSize: 11, letterSpacing: '0.12em', textTransform: 'uppercase' }}>
-                      Тема № {game.id}
-                    </p>
                     <h3 style={{ marginTop: 0 }}>
                       {t(game.titleKey)}
                     </h3>
@@ -170,31 +129,41 @@ const StudentGamesContent: React.FC = () => {
                     ))}
                   </div>
 
-                  {/* ── Description (no grey background) ── */}
+                  {/* ── Description ── */}
                   <p>{t(game.descriptionKey)}</p>
-                  <p><strong>{t('studentGamesContent.labelGoal')}</strong> {t(game.goalKey)}</p>
-                  <p><strong>{t('studentGamesContent.labelScoring')}</strong> {t(game.scoringKey)}</p>
+                  <p><strong>{t('internGamesContent.labelGoal')}</strong> {t(game.goalKey)}</p>
+                  <p><strong>{t('internGamesContent.labelScoring')}</strong> {t(game.scoringKey)}</p>
 
-                  {/* ── Meta row ── */}
-                  <div className="row" style={{ marginTop: 10, marginBottom: 10, paddingTop: 10, borderTop: '1px solid #ddd', borderBottom: '1px solid #ddd', paddingBottom: 10 }}>
-                    {Array.isArray(meta) && meta.map((m) => (
-                      <div key={m.label} className="col-lg-3 col-md-3 col-sm-6" style={{ marginBottom: 8 }}>
-                        <small style={{ textTransform: 'uppercase', color: '#aaa', fontSize: 10, fontWeight: 700 }}>{m.label}</small><br />
-                        <strong style={{ color: '#1F5794', fontSize: 13 }}>{m.value}</strong>
-                      </div>
-                    ))}
+                  {/* ── Meta 2×2 ── */}
+                  <div style={{ marginTop: 10, marginBottom: 10, paddingTop: 10, borderTop: '1px solid #ddd', borderBottom: '1px solid #ddd', paddingBottom: 10 }}>
+                    <div className="row" style={{ marginBottom: 8 }}>
+                      {Array.isArray(meta) && meta.slice(0, 2).map((m) => (
+                        <div key={m.label} className="col-lg-6 col-md-6 col-sm-6" style={{ marginBottom: 4 }}>
+                          <small style={{ textTransform: 'uppercase', color: '#aaa', fontSize: 10, fontWeight: 700 }}>{m.label}</small><br />
+                          <strong style={{ color: '#1F5794', fontSize: 13 }}>{m.value}</strong>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="row">
+                      {Array.isArray(meta) && meta.slice(2, 4).map((m) => (
+                        <div key={m.label} className="col-lg-6 col-md-6 col-sm-6">
+                          <small style={{ textTransform: 'uppercase', color: '#aaa', fontSize: 10, fontWeight: 700 }}>{m.label}</small><br />
+                          <strong style={{ color: '#1F5794', fontSize: 13 }}>{m.value}</strong>
+                        </div>
+                      ))}
+                    </div>
                   </div>
 
                   {/* ── Play button ── */}
                   <p>
                     <a href={game.gameUrl} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-play"></i>&nbsp;{t('studentGamesContent.playButton')}
+                      <i className="fa fa-play"></i>&nbsp;{t('internGamesContent.playButton')}
                     </a>
                   </p>
 
                   {/* ── Steps ── */}
                   <h4 style={{ color: '#FB9351', marginTop: 20, marginBottom: 10 }}>
-                    <i className="fa fa-list-ol"></i>&nbsp;{t('studentGamesContent.labelSteps')}
+                    <i className="fa fa-list-ol"></i>&nbsp;{t('internGamesContent.labelSteps')}
                   </h4>
                   <div className="row">
                     {Array.isArray(steps) && steps.map((step, i) => (
@@ -219,7 +188,7 @@ const StudentGamesContent: React.FC = () => {
 
                   {/* ── Controls ── */}
                   <h4 style={{ color: '#FB9351', marginTop: 16, marginBottom: 10 }}>
-                    <i className="fa fa-keyboard-o"></i>&nbsp;{t('studentGamesContent.labelControls')}
+                    <i className="fa fa-keyboard-o"></i>&nbsp;{t('internGamesContent.labelControls')}
                   </h4>
                   <div style={{ border: '1px solid #ddd', borderRadius: 4, overflow: 'hidden', marginBottom: 16 }}>
                     {Array.isArray(controls) && controls.map((ctrl, i) => (
@@ -267,7 +236,7 @@ const StudentGamesContent: React.FC = () => {
               <strong>{t('gamesContent.footer.goodLuck')}</strong>
             </div>
             <div style={{ textAlign: 'center', color: '#888', fontSize: 13 }}>
-              <i className="fa fa-wrench"></i>&nbsp;{t('studentGamesContent.integratedBy')}
+              <i className="fa fa-wrench"></i>&nbsp;{t('internGamesContent.integratedBy')}
             </div>
 
           </div>
@@ -277,4 +246,4 @@ const StudentGamesContent: React.FC = () => {
   );
 };
 
-export default StudentGamesContent;
+export default InternGamesContent;

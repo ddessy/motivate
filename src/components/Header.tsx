@@ -92,6 +92,11 @@ const Header: React.FC = () => {
                       <i className="fa fa-graduation-cap"></i>{t('gamesMenu.student')}
                     </Link>
                   </li>
+                  <li>
+                      <Link to="/interngames" onClick={closeMenu}>
+                          <i className="fa fa-graduation-cap"></i>{t('gamesMenu.interngames')}
+                      </Link>
+                  </li>
                 </ul>
               </li>
 

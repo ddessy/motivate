@@ -20,7 +20,8 @@
   "here": "HERE",
   "gamesMenu": {
     "apogee": "APOGEE Games",
-    "student": "Student Games"
+    "student": "MOTIVATE Games",
+    "interngames": "Intern Games"
   },
   "footerContent": {
     "system": "Project management system.",
@@ -560,6 +561,190 @@
     "screenshots": "Screenshots",
     "playButton": "Play now",
     "integratedBy": "Integrated by Dessislava Vassileva and Boyan Bontchev"
+  },
+  "internGamesContent": {
+    "title": "Intern Games",
+    "intro": "Explore the educational games developed by interns.",
+    "playButton": "Play now",
+    "labelGoal": "Goal:",
+    "labelScoring": "Scoring:",
+    "labelSteps": "How to play",
+    "labelControls": "Controls",
+    "integratedBy": "Integrated by Dessislava Vassileva and Boyan Bontchev",
+    "title57": "Doctor Knowledge",
+    "subtitle57": "Interactive educational game about the human body",
+    "desc57": "Step into the role of Doctor Knowledge and help a patient infected with a new virus by passing through five organs and collecting the necessary parts to create the healing serum. Designed for students in grades 5 and 6.",
+    "goal57": "Successfully complete the levels of the heart, stomach, liver, brain and lungs. Learn about the structure and functions of the organs, solve puzzles, complete mini-games and answer questions to collect all parts of the serum.",
+    "scoring57": "Earn antibodies based on your performance in each level and vitamins to unlock new organs. Each organ can be completed at three difficulty levels. Your best score is saved in your profile, and upon first successful completion of each organ you receive a part of the healing serum.",
+    "meta57": [
+      {
+        "label": "Genre",
+        "value": "Educational adventure game"
+      },
+      {
+        "label": "Levels",
+        "value": "5 organs × 3 difficulties"
+      },
+      {
+        "label": "Profile",
+        "value": "Login / registration"
+      },
+      {
+        "label": "Authors",
+        "value": "Viktor Bozhinov · Dimitar Velchev · Emil Tinkov"
+      }
+    ],
+    "steps57": [
+      {
+        "title": "Log in to your profile",
+        "text": "Enter your username and password or create a new profile."
+      },
+      {
+        "title": "Choose an organ and difficulty",
+        "text": "Select one of the five organs and a difficulty level – easy, medium or hard. Use the vitamins you have collected to unlock new organs."
+      },
+      {
+        "title": "Learn about the organ",
+        "text": "At the start of each level you will receive a brief educational introduction to the structure and functions of the organ."
+      },
+      {
+        "title": "Complete the challenges",
+        "text": "Solve the puzzle and complete the organ's special mini-game. Watch out for mistakes and the lives you have remaining."
+      },
+      {
+        "title": "Test your knowledge",
+        "text": "Answer the questions in the quiz. You may use hints if needed – the number of hints depends on the chosen difficulty."
+      },
+      {
+        "title": "Finish the level",
+        "text": "Earn antibodies and vitamins for your performance. On first completion of an organ you receive 20 % of the healing serum. Collect all five parts to complete the mission."
+      }
+    ],
+    "controls57": [
+      {
+        "keys": [
+          "Left click"
+        ],
+        "action": "Select buttons, answers and interactive elements"
+      },
+      {
+        "keys": [
+          "Left click + hold"
+        ],
+        "action": "Drag elements in puzzles"
+      },
+      {
+        "keys": [
+          "Left click + release"
+        ],
+        "action": "Drop the dragged element"
+      },
+      {
+        "keys": [
+          "W",
+          "A",
+          "S",
+          "D"
+        ],
+        "action": "Movement in mini-games where a character is controlled"
+      },
+      {
+        "keys": [
+          "Settings button"
+        ],
+        "action": "Sound, brightness, difficulty and colour theme"
+      }
+    ],
+    "tip57": "Your score depends on the chosen difficulty and your performance in the puzzle, the mini-game and the quiz. The best score for each organ is saved in your profile.",
+    "title58": "Immune Defender",
+    "subtitle58": "Educational 2D game for STEM learning",
+    "desc58": "An educational 2D game designed for STEM learning for students in grades 5 to 8. It consolidates and expands knowledge about the functions of blood, the difference between viruses and bacteria, the body's defensive reactions to infections, the structure of viruses and preventive measures.",
+    "goal58": "Progress through the difficulty levels, destroy harmful microorganisms and successfully complete the knowledge-check quizzes.",
+    "scoring58": "Successfully complete the missions and answer the final quizzes, divided into easy, medium and hard difficulty.",
+    "meta58": [
+      {
+        "label": "Genre",
+        "value": "Educational 2D game (STEM)"
+      },
+      {
+        "label": "Levels",
+        "value": "3"
+      },
+      {
+        "label": "Weapons/Tools",
+        "value": "Shield (Level 2) · Colour switching (Level 3)"
+      },
+      {
+        "label": "Authors",
+        "value": "Zeyna El Refay · Stefan Kasabov · Filiz Mustafa · Tsvetana Mollova"
+      }
+    ],
+    "steps58": [
+      {
+        "title": "Start the game",
+        "text": "Click the 'Play' button, then select Level 1 from the level selection screen."
+      },
+      {
+        "title": "Level 1 – Clearing bacteria",
+        "text": "Go through the introductory tutorial and opening scene, choose your desired difficulty (which affects the time limit) and catch 10 bacteria. Answer the short quiz at the end."
+      },
+      {
+        "title": "Level 2 – In the bloodstream",
+        "text": "Choose your difficulty – it determines the number of bacteria and the time limit. Use the protective shield. The level ends directly, without a quiz."
+      },
+      {
+        "title": "Level 3 – Battle with viruses (Boss fight)",
+        "text": "Control your movement with the mouse and switch the defender's colour using number keys to destroy the viruses."
+      },
+      {
+        "title": "Final quiz and rating",
+        "text": "Complete the final quiz with three difficulty levels (Easy, Medium, Hard) and leave your rating for the game."
+      }
+    ],
+    "controls58": [
+      {
+        "keys": [
+          "W",
+          "A",
+          "S",
+          "D"
+        ],
+        "action": "Basic movement"
+      },
+      {
+        "keys": [
+          "Left Shift"
+        ],
+        "action": "Speed boost"
+      },
+      {
+        "keys": [
+          "E"
+        ],
+        "action": "Activate shield (in Level 2)"
+      },
+      {
+        "keys": [
+          "1",
+          "2",
+          "3"
+        ],
+        "action": "Switch colour to destroy viruses (in Level 3)"
+      },
+      {
+        "keys": [
+          "Mouse (Click)"
+        ],
+        "action": "Navigate menus, select quiz answers, confirm"
+      },
+      {
+        "keys": [
+          "Mouse (Move)"
+        ],
+        "action": "Aim and move – follows the mouse in Level 3"
+      }
+    ],
+    "tip58": "All control keys can be fully customised from the settings menu in the game."
   },
   "contactsContent": {
     "title": "Contacts",

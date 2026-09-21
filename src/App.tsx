@@ -10,6 +10,7 @@ import HomeContent from './pages/HomeContent';
 import NewsContent from './pages/NewsContent';
 import GamesContent from './pages/GamesContent';
 import StudentgamesContent from './pages/StudentgamesContent';
+import InterngamesContent from './pages/InterngamesContent'
 import ContactsContent from './pages/ContactsContent';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -27,6 +28,7 @@ const App: React.FC = () => {
           <Route path="/news" element={<NewsContent />} />
           <Route path="/games" element={<GamesContent />} />
           <Route path="/studentgames" element={<StudentgamesContent />} />
+          <Route path="/interngames" element={<InterngamesContent />} />
           <Route path="/contacts" element={<ContactsContent />} />
         </Routes>
       <Footer />
