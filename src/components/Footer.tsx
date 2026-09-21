@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
 							<div className="media">
 								<div className="media-body">
 									<span className="media-heading"><a href="http://apogee.blog.bg/technology/2018/02/28/apogee-project-presentation-and-web-site.1596308">MOTIVATE: {t('footerContent.project_presentation')}</a></span>
-									<small className="muted">{t('footerContent.last_modified')} 15.02.2025</small>
+									<small className="muted">{t('footerContent.last_modified')} 21.09.2026</small>
 									
 								</div>
 							</div>
