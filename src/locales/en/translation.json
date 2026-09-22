@@ -745,6 +745,70 @@
     ],
     "tip58": "All control keys can be fully customised from the settings menu in the game."
   },
+  "phdStudentGamesContent": {
+    "title": "PhD Student Games",
+    "intro": "Explore the educational games developed by PhD students.",
+    "playButton": "Play Now",
+    "labelGoal": "Goal:",
+    "labelScoring": "Scoring:",
+    "labelSteps": "How to Play",
+    "labelControls": "Controls",
+    "integratedBy": "Integrated by Desislava Vasileva and Boyan Bontchev",
+
+    "title1": "Negotiation Simulator",
+    "subtitle1": "Negotiate with artificial intelligence over pocket money",
+    "desc1": "\"Negotiation Simulator\" is an educational game about negotiating with artificial intelligence. The player negotiates in writing with a virtual character — Mom Radostina, powered by the Bulgarian language model BgGPT — over a realistic scenario about the amount of weekly pocket money. The goal isn't simply to get the highest number, but to reach a deal that's good for both sides.",
+    "goal1": "Reach an agreement with the virtual character by applying real negotiation techniques — showing empathy, asking calibrated questions, and practicing active listening — inspired by former FBI agents Chris Voss and Evy Poumpouras. Learn to recognize when you're winning too much at the other side's expense, and stay calm and firm under pressure.",
+    "scoring1": "Two real-time indicators show how favorable the current offer is for the player and how good the deal is for both sides. The game ends when an agreement is reached, the turns run out, or the player decides to stop, after which a personal feedback report is generated.",
+    "meta1": [
+      { "label": "Genre", "value": "AI Negotiation Simulation" },
+      { "label": "Difficulty", "value": "Easy · Medium · Hard" },
+      { "label": "Duration", "value": "10, 15, or 20 turns" },
+      { "label": "Author", "value": "Blagoy Anastasov" }
+    ],
+    "steps1": [
+      { "title": "Choose difficulty and duration", "text": "Before starting, choose how firm the negotiator is (Easy, Medium, or Hard) and the number of turns — 10, 15, or 20." },
+      { "title": "Read the opening position", "text": "Mom Radostina opens the negotiation with her starting position on the pocket money topic." },
+      { "title": "Negotiate in the chat", "text": "Respond freely in the chat or submit a formal offer with a specific amount." },
+      { "title": "Watch the indicators", "text": "Two real-time indicators show how favorable the current amount is for you and how good the deal is for both sides." },
+      { "title": "Apply negotiation techniques", "text": "Use empathy, calibrated questions, and active listening to reach a good agreement." },
+      { "title": "Conclude the negotiation", "text": "The game ends when an agreement is reached, turns run out, or the player decides to stop — after which you receive a personal feedback report." }
+    ],
+    "controls1": [
+      { "keys": ["Text field"], "action": "Type a message or response in the chat" },
+      { "keys": ["'Offer' button"], "action": "Submit a formal offer with a specific amount" },
+      { "keys": ["Enter"], "action": "Send the message" },
+      { "keys": ["Indicators"], "action": "Track the deal's favorability in real time" }
+    ],
+    "tip1": "Don't aim only for the highest number — a deal that's good only for you usually isn't a good deal in the long run.",
+
+    "title2": "Word Puzzle",
+    "subtitle2": "An educational 2D puzzle game across school subjects",
+    "desc2": "Word Puzzle is an educational 2D puzzle game. The player answers an educational question by assembling the correct answer from letters on a grid. The questions follow the Bulgarian school curriculum (grades 1–12) across subjects such as math, physics, biology, and more, while the puzzle itself develops spatial thinking — pieces are dragged, rotated, and arranged until the word is formed.",
+    "goal2": "Answer a question in a chosen school subject by assembling the word from tetromino-shaped letter pieces on the grid. Use hints in stages instead of getting the full answer at once.",
+    "scoring2": "The hint button progresses through three stages — highlighting the first letter, showing the first and last letters, and revealing the remaining letters — with earlier use of hints reducing the points earned. The game ends after completing 10 puzzles of varying difficulty.",
+    "meta2": [
+      { "label": "Genre", "value": "2D Puzzle / Quiz" },
+      { "label": "Levels", "value": "Easy · Medium · Hard · Expert" },
+      { "label": "Engine", "value": "Unity 6.4" },
+      { "label": "Author", "value": "Hristo Ivanov" }
+    ],
+    "steps2": [
+      { "title": "Log in to your profile", "text": "Sign in to track your progress, level, and streak of correct answers." },
+      { "title": "Start a new game", "text": "Choose a subject (random, math, physics, biology, etc.), question difficulty, and puzzle difficulty." },
+      { "title": "Arrange the pieces", "text": "Drag a piece onto the grid and drop it onto free cells." },
+      { "title": "Rotate when needed", "text": "Click a red piece to rotate it clockwise." },
+      { "title": "Use hints sparingly", "text": "Use the hint button if needed, but keep in mind it reduces your points across its three stages." },
+      { "title": "Complete the puzzles", "text": "The game ends after completing 10 puzzles of varying difficulty." }
+    ],
+    "controls2": [
+      { "keys": ["Left-click hold"], "action": "Drag a piece onto the grid" },
+      { "keys": ["Left-click release"], "action": "Drop the piece onto free cells" },
+      { "keys": ["Click on red piece"], "action": "Rotate the piece clockwise" },
+      { "keys": ["Help button"], "action": "Reveals letters in stages at the cost of points" }
+    ],
+    "tip2": "The puzzle is solved only when the correct answer reads across adjacent cells — arrange the letters carefully before dropping them."
+  },
   "contactsContent": {
     "title": "Contacts",
     "project": {
