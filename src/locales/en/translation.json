@@ -21,7 +21,8 @@
   "gamesMenu": {
     "apogee": "APOGEE Games",
     "student": "MOTIVATE Games",
-    "interngames": "Intern Games"
+    "interngames": "Intern Games",
+    "phdstudentgames": "PhD Student Games"
   },
   "footerContent": {
     "blog": "Blog",

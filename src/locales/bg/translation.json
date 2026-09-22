@@ -21,7 +21,8 @@
   "gamesMenu": {
     "apogee": "APOGEE игри",
     "student": "MOTIVATE игри",
-    "interngames": "Стажантски игри"
+    "interngames": "Стажантски игри",
+    "phdstudentgames": "Докторантски игри"
   },
   "footerContent": {
     "blog": "От блога",
