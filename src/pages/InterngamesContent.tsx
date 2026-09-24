@@ -60,6 +60,25 @@ const gameDefs: GameDef[] = [
       './assets/img/interngames/game58_3.jpg',
     ],
   },
+  {
+    id: 59,
+    iconClass: 'fa fa-bolt',
+    titleKey: 'internGamesContent.title59',
+    subtitleKey: 'internGamesContent.subtitle59',
+    descriptionKey: 'internGamesContent.desc59',
+    goalKey: 'internGamesContent.goal59',
+    scoringKey: 'internGamesContent.scoring59',
+    metaKey: 'internGamesContent.meta59',
+    stepsKey: 'internGamesContent.steps59',
+    controlsKey: 'internGamesContent.controls59',
+    tipKey: 'internGamesContent.tip59',
+    gameUrl: '/interngames/catcircuit/',
+    screenshots: [
+      './assets/img/interngames/game59_1.jpg',
+      './assets/img/interngames/game59_2.jpg',
+      './assets/img/interngames/game59_3.jpg',
+    ],
+  },
 ];
 
 const InternGamesContent: React.FC = () => {

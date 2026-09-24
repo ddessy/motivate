@@ -744,7 +744,79 @@
         "action": "Aim and move – follows the mouse in Level 3"
       }
     ],
-    "tip58": "All control keys can be fully customised from the settings menu in the game."
+    "tip58": "All control keys can be fully customised from the settings menu in the game.",
+    "title59": "CatCircuit",
+    "subtitle59": "Educational 3D game about electronics basics",
+    "desc59": "Step into the role of a cat helping the residents of a small cat village with their electronics problems. The game introduces fundamental concepts of electronics through hands-on problem solving on a virtual breadboard.",
+    "goal59": "Complete all four levels by helping NPC characters — Professor Mustack, Mrs. Purington, Old Tom and the Kittens. Learn to close circuits, determine LED polarity, apply Ohm's Law and understand the difference between series and parallel connections.",
+    "scoring59": "Successfully complete each level by placing the components correctly on the breadboard.",
+    "meta59": [
+      {
+        "label": "Genre",
+        "value": "Educational 3D game, puzzle, third-person"
+      },
+      {
+        "label": "Levels",
+        "value": "4"
+      },
+      {
+        "label": "Platform",
+        "value": "PC"
+      },
+      {
+        "label": "Author",
+        "value": "Anton Kalitsov"
+      }
+    ],
+    "steps59": [
+      {
+        "title": "Level 1 – Prof. Mustack",
+        "text": "Place a battery and resistor in the correct slots to close the circuit. Result: the LED lights up."
+      },
+      {
+        "title": "Level 2 – Mrs. Purington",
+        "text": "Place the LED in the slot and rotate it with R until it faces the correct direction. Result: the LED lights up only at the correct polarity."
+      },
+      {
+        "title": "Level 3 – Old Tom",
+        "text": "Try three resistors (100Ω, 1kΩ, 10kΩ) and observe the brightness of three series-connected LEDs. Find the right one — 1kΩ."
+      },
+      {
+        "title": "Level 4 – The Kittens",
+        "text": "First place three LEDs in series — they glow unevenly. Then move two of them to parallel slots. Result: all LEDs glow equally bright."
+      }
+    ],
+    "controls59": [
+      {
+        "keys": [
+          "W",
+          "A",
+          "S",
+          "D"
+        ],
+        "action": "Move the cat"
+      },
+      {
+        "keys": [
+          "Mouse"
+        ],
+        "action": "Aim the camera"
+      },
+      {
+        "keys": [
+          "E"
+        ],
+        "action": "Interact with NPC and pick up components"
+      },
+      {
+        "keys": [
+          "R"
+        ],
+        "action": "Rotate the LED (for polarity)"
+      }
+    ],
+    "tip59": "Pay close attention to the brightness of the LEDs with different resistors — it is the key to the correct choice in Level 3."
+
   },
   "phdStudentGamesContent": {
     "title": "PhD Student Games",
