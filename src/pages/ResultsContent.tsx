@@ -33,8 +33,10 @@ const ResultsContent: React.FC = () => {
                                     <li>Dankov, Y., Bontchev, B., Terzieva, V., Dimov, A. (2025) <a href="https://motivate-bg.online/pdf/motivate/abstracts/PlatformsAndToolsForEducationalVideoGames.pdf" target="_blank">Platforms and tools for creation of educational video games – a literature review</a>, Proc. of 28th International Conference on Interactive Collaborative Learning (ICL‘2025), 01-04 Oct 2025 Budapest, Hungary; In: Auer, M.E., Toth, P. (eds) Innovation via Collaborative Learning in Engineering Education. ICL 2025, Lecture Notes in Networks and Systems, vol. 1849. Springer, Cham., pp. 17-28. https://doi.org/10.1007/978-3-032-18891-5_2 (WoS, SJR=0.165/Q4(Comp. Networks & Comm./2025)).</li><li>Terzieva, V., B. Bontchev, Y. Dankov and A. Dimov (2025) <a href="https://ieeexplore.ieee.org/document/11300509" target="_blank">Evaluation of Video Games for STEM Education</a>, 2025 International Conference on Big Data, Knowledge and Control Systems Engineering (BdKCSE), Bankya, Bulgaria, 2025, IEEEXplore - DBLP, pp. 1-6, doi: 10.1109/BdKCSE67969.2025.11300509 (Scopus).</li>
                     </ol>
                     <hr/>
+                    <ol>
                     	In print:
                     	<li>Dankov, A., Bontchev, B., Terzieva, V., Paunova, E., Dimov, A. (2026) Modelling of Educational Role-Playing Games, Proc. of 11th Int. Conf. on Information and Communication Technology for Intelligent Systems (ICTIS’2026), April 9-11, 2026, Bangkok, Thailand, LNNS, Springer, eISSN:2367-3389, ISSN:2367-3370 (in print, to appear November 14, 2026; WoS, SJR=0.165/Q4(Comp. Networks & Comm./2025)</li>
+                    </ol>
                 </div>
             </div>
 
